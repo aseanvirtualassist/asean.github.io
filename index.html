@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/smooth-scrollbar.css">
     <link rel="stylesheet" href="assets/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/plugins.css">
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -386,7 +387,7 @@
                                 <div class="col-md-6 scroll-animation" data-animation="fade_from_left">
                                     <div class="portfolio-item portfolio-half">
                                         <div class="portfolio-item-inner">
-                                            <a href="assets/images/portfolio/Videos/TheDistortedPurpose.webm" data-lightbox="example-1">
+                                            <a href="assets/images/portfolio/Videos/TheDistortedPurpose.webm" class="popup-youtube">
                                                 <img src="assets/images/portfolio/Photos/TheDistortedPurpose.jpg" alt="Portfolio">
                                             </a>
         
@@ -409,7 +410,7 @@
                                 <div class="col-md-6 scroll-animation" data-animation="fade_from_right">
                                     <div class="portfolio-item portfolio-half">
                                         <div class="portfolio-item-inner">
-                                            <a href="assets/images/portfolio/Videos/Refocusing.webm" data-lightbox="example-1">
+                                            <a href="assets/images/portfolio/Videos/Refocusing.webm" class="cavani_tm_full_link popup-youtube">
                                                 <img src="assets/images/portfolio/Photos/Refocusing.jpg" alt="Portfolio">
                                             </a>
         
@@ -432,7 +433,7 @@
                                 <div class="col-md-6 scroll-animation" data-animation="fade_from_left">
                                     <div class="portfolio-item portfolio-half">
                                         <div class="portfolio-item-inner">
-                                            <a href="assets/images/portfolio/Videos/BeautifulEmptiness.webm" data-lightbox="example-1">
+                                            <a href="assets/images/portfolio/Videos/BeautifulEmptiness.webm" class="cavani_tm_full_link popup-youtube">
                                                 <img src="assets/images/portfolio/Photos/BeautifulEmptiness.jpg" alt="Portfolio">
                                             </a>
         
@@ -455,7 +456,7 @@
                                 <div class="col-md-6 scroll-animation" data-animation="fade_from_right">
                                     <div class="portfolio-item portfolio-half">
                                         <div class="portfolio-item-inner">
-                                            <a href="assets/images/portfolio/Videos/InvisibleTrap.webm" data-lightbox="example-1">
+                                            <a href="assets/images/portfolio/Videos/InvisibleTrap.webm" class="cavani_tm_full_link popup-youtube">
                                                 <img src="assets/images/portfolio/Photos/InvisibleTrap.jpg" alt="Portfolio">
                                             </a>
         
@@ -756,20 +757,13 @@
                                 <h1 class="scroll-animation" data-animation="fade_from_bottom">Let's Work <span>Together!</span></h1>
                             </div>
                             <h3 class="scroll-animation" data-animation="fade_from_bottom">asean.virtualassist</h3>
-                            <p id="required-msg">* Marked fields are required to fill.</p>
-
-                            <form class="contact-form scroll-animation" data-animation="fade_from_bottom" method="POST" action="https://wpriverthemes.com/HTML/drake/mailer.php">
-                                <div class="alert alert-success messenger-box-contact__msg" style="display: none" role="alert">
-                                    Your message was sent successfully.
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="input-group submit-btn-wrap">
-                                            <a href="https://api.whatsapp.com/send?phone=6282147907803&text=Hi%20bagus!%20%F0%9F%91%8B%20I%27m%20curious%20to%20know%20more%20about%20what%20you%20offer%20as%20a%20virtual%20assistant.%20Can%20you%20give%20me%20the%20lowdown%20on%20your%20services%2C%20maybe%20some%20cool%20stuff%20that%20makes%20them%20stand%20out%3F%20Thanks!%20%F0%9F%8C%9F" target="_blank" class="theme-btn">Get in Touch!</a>
-                                        </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="input-group submit-btn-wrap">
+                                        <a href="https://api.whatsapp.com/send?phone=6282147907803&text=Hi%20bagus!%20%F0%9F%91%8B%20I%27m%20curious%20to%20know%20more%20about%20what%20you%20offer%20as%20a%20virtual%20assistant.%20Can%20you%20give%20me%20the%20lowdown%20on%20your%20services%2C%20maybe%20some%20cool%20stuff%20that%20makes%20them%20stand%20out%3F%20Thanks!%20%F0%9F%8C%9F" target="_blank" class="theme-btn">Get in Touch!</a>
                                     </div>
                                 </div>
-                            </form>
+                            </div>
 
                         </div>
                     </div>
@@ -786,6 +780,8 @@
     <script src="assets/js/ScrollTrigger.min.js"></script>
     <script src="assets/js/ScrollToPlugin.min.js"></script>
     <script src="assets/js/lightbox.min.js"></script>
+    <script src="assets/js/init.js"></script>
+    <script src="assets/js/plugins.js"></script>
     
     <script src="assets/js/main.js"></script>
     <script src="assets/js/ajax-form.js"></script>
